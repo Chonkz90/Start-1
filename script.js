@@ -101,8 +101,8 @@ console.log("This is a collection of variables(object)")
 console.log(personA)
 
 console.log("Accessing a single entry in an object")
-console.log(personA["Proffesion"])
-console.log(personA.eyecColor)
+console.log(personA ["proffession"])
+console.log(personA.eyecolor)
 
 // inbuilt objects
 console.log(console)
