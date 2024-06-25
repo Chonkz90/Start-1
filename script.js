@@ -28,7 +28,7 @@ let stringA = "hello"
 let stringB = 'world'
 let stringC = '!!!'
 
-let stringD = " Lets 'GO'!
+let stringD = " Lets 'GO'!"
 console.log(stringD)
 
 let newLine = "Hello\n\n\nWorld"
