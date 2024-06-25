@@ -1,6 +1,6 @@
 // /let er et nøkkelord for å lage en ny variabel
 // "greeting"
-//"=" largre verdie på høyre side i navnet på venstre
+//"=" lagre verdier på høyre side i navnet på venstre
 //god morgen kodeloftet er verdien som blir lagret"
 let greeting = 'God Morgen Kodeloftet'
 
@@ -26,7 +26,7 @@ console.log (numberC)
 // stringer (tekst)
 let stringA = "hello"
 let stringB = 'world'
-let stringC = '!!!'
+let stringC = `!!!`
 
 let stringD = " Lets 'GO'!"
 console.log(stringD)
@@ -70,3 +70,40 @@ console.log(thisIsUndefined)
     let doesNotYetHaveValue = null
     console.log("The following does not yet have a value")
     console.log(doesNotYetHaveValue)
+
+    // Komplekse datatyper
+
+
+// array (lists)
+let arrayA = [
+    "Per",
+    "Pål",
+    "Espen",
+    "Martha",
+]
+
+console.log("This is an array (list)")
+console.log(arrayA)
+
+console.log("Accessing a single entry")
+console.log(ArrayA[3])
+
+// Object
+
+let personA = {
+name: "Espen",
+proffession: "Eventyr Figur",
+age: "18",
+eyecolor: "blue"
+}
+
+console.log("This is a collection of variables(object)")
+console.log(personA)
+
+console.log("Accessing a single entry in an object")
+console.log(personA["Proffesion"])
+console.log(personA.eyecColor)
+
+// inbuilt objects
+console.log(console)
+console.error(This is an error)
