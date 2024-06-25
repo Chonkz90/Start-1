@@ -106,4 +106,4 @@ console.log(personA.eyecColor)
 
 // inbuilt objects
 console.log(console)
-console.error(This is an error)
+console.error("This is an error")
