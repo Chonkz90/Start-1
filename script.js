@@ -86,7 +86,7 @@ console.log("This is an array (list)")
 console.log(arrayA)
 
 console.log("Accessing a single entry")
-console.log(ArrayA[3])
+console.log(arrayA[3])
 
 // Object
 
